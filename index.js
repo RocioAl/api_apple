@@ -13,39 +13,41 @@ app.get('/', (request, response) => {
 });
 
 app.get('/usuario', (request, response) => {
-    response.json({
-        products: [
-            {
-                id: '1',
-                image: 'assets/images/apple-tv.jpg',
-                title: 'Apple-tv',
-                price: 60000,
-                description: 'Apple tv white'
-            },
-            {
-                id: '2',
-                image: 'assets/images/homepod-mini.jpg',
-                title: 'HomePod',
-                price: 40000,
-                description: 'HomePod mini black'
-            },
-            {
-                id: '3',
-                image: 'assets/images/ipad-mini.jpg',
-                title: 'Ipad',
-                price: 30000,
-                description: 'Ipad mini white'
-            },
-            {
-                id: '4',
-                image: 'assets/images/macbook.jpg',
-                title: 'Macbook',
-                price: 60000,
-                description: 'Macbook white'
-            }
-        ]
-    });
-})
+    response.json(
+
+        [{
+            id: '1',
+            image: '',
+            title: 'Apple-tv',
+            price: 60000,
+            description: 'Apple tv white'
+        },
+        {
+            id: '2',
+            image: '',
+            title: 'HomePod',
+            price: 40000,
+            description: 'HomePod mini black'
+        },
+        {
+            id: '3',
+            image: '',
+            title: 'Ipad',
+            price: 30000,
+            description: 'Ipad mini white'
+        },
+        {
+            id: '4',
+            image: '',
+            title: 'Macbook',
+            price: 60000,
+            description: 'Macbook white'
+        }]
+
+    )
+});
 app.listen(port, () => {
     console.log(`Api corriendo en el puerto ${port}`);
 });
+
+
