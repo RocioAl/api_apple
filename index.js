@@ -1,5 +1,5 @@
-
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 const { request, response } = require('express');
@@ -10,9 +10,8 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// const express = require('express')
-const cors = require('cors')
-// const app = express()
+app.use(cors())
+
 
 app.get('/con-cors', cors(), (req, res, next) => {
     res.json({ msg: 'con cors 🔝 🎉' })
@@ -60,5 +59,4 @@ app.get('/products', (request, response) => {
 app.listen(port, () => {
     console.log(`Api corriendo en el puerto ${port}`);
 });
-
 
