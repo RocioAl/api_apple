@@ -88,7 +88,7 @@ app.get('/products/2', (request, response) => {
             image: 'assets/images/iphone.jpg',
             title: 'Iphone',
             price: 4000,
-            description: ' Iphonr Plus, 32 GB, oro rosa'
+            description: ' Iphone Plus, 32 GB, oro rosa'
         }
 
     )
