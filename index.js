@@ -13,34 +13,36 @@ app.get('/', (request, response) => {
 });
 
 app.get('/usuario', (request, response) => {
+
+
     response.json(
 
         [{
             id: '1',
-            image: '',
             title: 'Apple-tv',
             price: 60000,
+            image: '',
             description: 'Apple tv white'
         },
         {
             id: '2',
-            image: '',
             title: 'HomePod',
             price: 40000,
+            image: '',
             description: 'HomePod mini black'
         },
         {
             id: '3',
-            image: '',
             title: 'Ipad',
             price: 30000,
+            image: '',
             description: 'Ipad mini white'
         },
         {
             id: '4',
-            image: '',
             title: 'Macbook',
             price: 60000,
+            image: '',
             description: 'Macbook white'
         }]
 
