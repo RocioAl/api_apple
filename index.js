@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-app.get('/', (request, response) => {
+app.get('/usuario', (request, response) => {
     response.json({ info: 'La API esta en ejecucion' });
 });
 
-app.get('/usuario', (request, response) => {
+app.get('/', (request, response) => {
 
 
     response.json(
