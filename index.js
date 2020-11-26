@@ -29,29 +29,36 @@ app.get('/products', (request, response) => {
             id: '1',
             title: 'Apple-tv',
             price: 60000,
-            image: '',
-            description: 'Apple tv white'
+            image: 'assets/images/apple-tv.jpg',
+            description: 'Rosa Apple-tv piel'
         },
         {
             id: '2',
-            title: 'HomePod',
+            title: 'Iphone',
             price: 40000,
-            image: '',
-            description: 'HomePod mini black'
+            image: 'assets/images/iphone.jpg',
+            description: ' Iphonr Plus, 32 GB, oro rosa'
         },
         {
             id: '3',
-            title: 'Ipad',
+            title: 'Homepod Mini',
             price: 30000,
-            image: '',
-            description: 'Ipad mini white'
+            image: 'assets/images/homepod-mini',
+            description: 'Apple HomePod Speakers white'
+        },
+        {
+            id: '4',
+            title: 'Ipad ',
+            price: 40000,
+            image: 'assets/images/ipad-mini.jpg',
+            description: 'Ipad Mini'
         },
         {
             id: '4',
             title: 'Macbook',
             price: 60000,
-            image: '',
-            description: 'Macbook white'
+            image: 'assets/images/macbook.png',
+            description: 'Macbook'
         }]
 
     )
