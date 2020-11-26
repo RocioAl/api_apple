@@ -21,7 +21,7 @@ app.get('/usuario', (request, response) => {
     response.json({ info: 'La API esta en ejecucion' });
 });
 
-app.get('/', (request, response) => {
+app.get('/products', (request, response) => {
 
 
     response.json(
