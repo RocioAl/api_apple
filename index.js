@@ -68,13 +68,13 @@ app.get('/products/1', (request, response) => {
 
     response.json(
 
-        [{
+        {
             id: '1',
-            image: 'assets/images/apple-tv.jpg',
+            image: './assets/images/apple-tv.jpg',
             title: 'Apple-tv',
             price: 60000,
             description: 'Rosa Apple-tv piel'
-        }]
+        }
 
     )
 });
@@ -83,13 +83,13 @@ app.get('/products/2', (request, response) => {
 
     response.json(
 
-        [{
+        {
             id: '2',
-            image: 'assets/images/iphone.jpg',
+            image: './assets/images/iphone.jpg',
             title: 'Iphone',
             price: 40000,
             description: ' Iphonr Plus, 32 GB, oro rosa'
-        }]
+        }
 
     )
 });
@@ -98,13 +98,13 @@ app.get('/products/3', (request, response) => {
 
     response.json(
 
-        [{
+        {
             id: '3',
-            image: 'assets/images/homepod-mini.jpg',
+            image: './assets/images/homepod-mini.jpg',
             title: 'Homepod Mini',
             price: 30000,
             description: 'Apple HomePod Speakers white'
-        }]
+        }
 
     )
 });
@@ -113,13 +113,13 @@ app.get('/products/4', (request, response) => {
 
     response.json(
 
-        [{
+        {
             id: '4',
-            image: 'assets/images/ipad-mini.jpg',
+            image: './assets/images/ipad-mini.jpg',
             title: 'Ipad ',
             price: 40000,
             description: 'Ipad Mini'
-        }]
+        }
 
     )
 });
@@ -128,13 +128,13 @@ app.get('/products/5', (request, response) => {
 
     response.json(
 
-        [{
+        {
             id: '5',
-            image: 'assets/images/macbook.png',
+            image: './assets/images/macbook.png',
             title: 'Macbook',
             price: 60000,
             description: 'Macbook'
-        }]
+        }
 
     )
 });
