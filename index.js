@@ -28,35 +28,35 @@ app.get('/products', (request, response) => {
         [{
             id: '1',
             title: 'Apple-tv',
-            price: 60000,
+            price: 49.99,
             image: 'assets/images/apple-tv.jpg',
             description: 'Rosa Apple-tv piel'
         },
         {
             id: '2',
             title: 'Iphone',
-            price: 40000,
+            price: 700,
             image: 'assets/images/iphone.jpg',
-            description: ' Iphonr Plus, 32 GB, oro rosa'
+            description: ' Iphonr Plus 11, 32 GB, oro rosa'
         },
         {
             id: '3',
             title: 'Homepod Mini',
-            price: 30000,
+            price: 299,
             image: 'assets/images/homepod-mini.jpg',
             description: 'Apple HomePod Speakers white'
         },
         {
             id: '4',
             title: 'Ipad ',
-            price: 40000,
+            price: 399,
             image: 'assets/images/ipad-mini.jpg',
             description: 'Ipad Mini'
         },
         {
             id: '5',
             title: 'Macbook',
-            price: 60000,
+            price: 1.099,
             image: 'assets/images/macbook.png',
             description: 'Macbook'
         }]
@@ -72,7 +72,7 @@ app.get('/products/1', (request, response) => {
             id: '1',
             image: 'assets/images/apple-tv.jpg',
             title: 'Apple-tv',
-            price: 60000,
+            price: 6000,
             description: 'Rosa Apple-tv piel'
         }
 
@@ -87,7 +87,7 @@ app.get('/products/2', (request, response) => {
             id: '2',
             image: 'assets/images/iphone.jpg',
             title: 'Iphone',
-            price: 40000,
+            price: 4000,
             description: ' Iphonr Plus, 32 GB, oro rosa'
         }
 
@@ -102,7 +102,7 @@ app.get('/products/3', (request, response) => {
             id: '3',
             image: 'assets/images/homepod-mini.jpg',
             title: 'Homepod Mini',
-            price: 30000,
+            price: 3000,
             description: 'Apple HomePod Speakers white'
         }
 
@@ -117,7 +117,7 @@ app.get('/products/4', (request, response) => {
             id: '4',
             image: 'assets/images/ipad-mini.jpg',
             title: 'Ipad ',
-            price: 40000,
+            price: 4000,
             description: 'Ipad Mini'
         }
 
@@ -132,7 +132,7 @@ app.get('/products/5', (request, response) => {
             id: '5',
             image: 'assets/images/macbook.png',
             title: 'Macbook',
-            price: 60000,
+            price: 6000,
             description: 'Macbook'
         }
 
