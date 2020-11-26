@@ -141,4 +141,4 @@ app.get('/products/5', (request, response) => {
 app.listen(port, () => {
     console.log(`Api corriendo en el puerto ${port}`);
 });
-
+// no es necesario insertar carpeta assets
