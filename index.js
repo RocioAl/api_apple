@@ -37,7 +37,7 @@ app.get('/products', (request, response) => {
             title: 'Iphone',
             price: 700,
             image: 'assets/images/iphone.jpg',
-            description: ' Iphonr Plus 11, 32 GB, oro rosa'
+            description: ' Iphone Plus 11, 32 GB, oro rosa'
         },
         {
             id: '3',
