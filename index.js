@@ -43,7 +43,7 @@ app.get('/products', (request, response) => {
             id: '3',
             title: 'Homepod Mini',
             price: 30000,
-            image: 'assets/images/homepod-mini',
+            image: 'assets/images/homepod-mini.jpg',
             description: 'Apple HomePod Speakers white'
         },
         {
