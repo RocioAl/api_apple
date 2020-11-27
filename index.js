@@ -37,7 +37,7 @@ app.get('/products', (request, response) => {
             title: 'Iphone',
             price: 700,
             image: 'assets/images/iphone.jpg',
-            description: ' Iphone Plus 11, 32 GB, oro rosa'
+            description: ' Iphone 11 Plus, 32 GB, oro rosa'
         },
         {
             id: '3',
@@ -72,7 +72,7 @@ app.get('/products/1', (request, response) => {
             id: '1',
             image: 'assets/images/apple-tv.jpg',
             title: 'Apple-tv',
-            price: 6000,
+            price: 49.99,
             description: 'Rosa Apple-tv piel'
         }
 
@@ -87,8 +87,8 @@ app.get('/products/2', (request, response) => {
             id: '2',
             image: 'assets/images/iphone.jpg',
             title: 'Iphone',
-            price: 4000,
-            description: ' Iphone Plus, 32 GB, oro rosa'
+            price: 700,
+            description: ' Iphone 11 Plus, 32 GB, oro rosa'
         }
 
     )
@@ -102,7 +102,7 @@ app.get('/products/3', (request, response) => {
             id: '3',
             image: 'assets/images/homepod-mini.jpg',
             title: 'Homepod Mini',
-            price: 3000,
+            price: 299,
             description: 'Apple HomePod Speakers white'
         }
 
@@ -117,7 +117,7 @@ app.get('/products/4', (request, response) => {
             id: '4',
             image: 'assets/images/ipad-mini.jpg',
             title: 'Ipad ',
-            price: 4000,
+            price: 399,
             description: 'Ipad Mini'
         }
 
@@ -132,7 +132,7 @@ app.get('/products/5', (request, response) => {
             id: '5',
             image: 'assets/images/macbook.png',
             title: 'Macbook',
-            price: 6000,
+            price: 1.099,
             description: 'Macbook'
         }
 
